@@ -26,7 +26,7 @@ public class UserRegestration {
         System.out.println("Enter your surname: ");
         lastname = input.next();
         boolean usernameVerdict = false;
-        System.out.println("Input a username that is lessthan five characters long: ");
+        System.out.println("Input a username that is not more than five characters long: ");
         username = input.next();
         
         if(username.length() <= 5){
@@ -99,7 +99,7 @@ public class UserRegestration {
         System.out.println("Enter your password: ");
         String tempPassword =input.next();
         if(tempPassword.equals(password) && tempusername.equals(username)){
-            System.out.println("Welcome " + firstname + " " + lastname + "It is great to see you again");
+            System.out.println("Welcome " + firstname + " " + lastname + " It is great to see you again");
             loginVerdict = true; 
         }
         else{
