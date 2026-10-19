@@ -15,7 +15,7 @@ import org.json.simple.JSONObject;   // You can use Gson instead if preferred
  *
  * @author Student
  */
-public class Message { 
+public class Message{ 
     private String messageID; 
     private int numMessagesSent; 
     private String recipient; 
@@ -246,7 +246,6 @@ public class Message {
         } 
 
     } 
-
     // Getters 
 
     public String getMessageID() { return messageID; } 
